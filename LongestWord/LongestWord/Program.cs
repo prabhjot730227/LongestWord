@@ -27,7 +27,10 @@ namespace LongestWord
 
             foreach (var word in words)
             {
-
+                if(word.Length> x)
+                {
+                    x = word.Length;
+                }
             }
             //loop post codition: we now have array wordsLength which
             //contains the lengths of each word
